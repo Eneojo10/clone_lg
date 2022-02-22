@@ -1,0 +1,74 @@
+*{padding:0; margin:0; font-family: sans-serif;}
+
+/* Header section start */
+.header{ height: 70px; width: 100%; display: flex; align-items: center;}
+.header .lg-logo img{ width: 80px;}
+.header .lg-logo{width: 10%;}
+.header .nav-links{width: 88%;}
+.header a{text-decoration: none; color: black; margin: 5px;  padding: 10px; }
+.header .nav-links .row1{display: flex; justify-content: space-between; border-bottom: 0.4px solid lightgray; 
+    padding-bottom: 5px;}
+.header .nav-links .row2{display: flex; justify-content: space-between; padding-top: 5px;}
+
+/* Header Section End */
+
+/* Slider section start */
+ .slider{width: 100%; height: 600px; background-image: url("../img/banner.webp");
+     background-repeat: no-repeat; background-size: cover;}
+.slider a{text-decoration: none; color: white; background-color: maroon; padding: 15px;
+     position: absolute; top: 80%; left: 10%;}
+
+/* Slider section End */
+
+/* section1 start */
+.section1 {display: flex; width: 75%; text-align: center; margin: auto; margin-top: 100px; margin-bottom: 100px;}
+.section1 img{width: 200px;}
+.section1 .col{width: 29%; margin: 20px; border: 1px solid lightgray; 
+    border-radius: 20px; padding: 15px;}
+.section1 h1{font-size: 18px; padding: 30px;}
+.section1 p{color: gray; padding: 15px; }
+.section1 .col2 p{padding-top: 37px;}
+.section1 .col3 p{padding-top: 37px;}
+/* section1  End */
+
+/* section 2 start */
+.section2{width: 100%; height: 300px; background-image: url("../img/B2B\ Banner-01-01.webp");
+     background-size: cover; margin-top: 100px; text-align: center; }
+.section2 .btn {padding-top: 150px;}
+.section2 .btn a{text-decoration: none; color: white; background-color: maroon; padding: 10px; 
+    border-radius: 5px;  }
+/* section 2 end */
+
+/* section 3 start */
+.section3{width: 90%; margin: auto; margin-top: 100px; display: flex; 
+    justify-content: space-evenly;}
+.section3 .col{width: 30%; }
+.section3 .col img{width: 100%; height: 200px;
+    object-fit: cover; }
+.section3 .col a{text-decoration: none; 
+    color: black;}
+/* section 3 end */
+
+
+/* section4 start */
+.section4{
+    width: 100%;display: flex;margin:auto;
+    margin-top: 100px;margin-bottom: 20px;
+}
+.section4 .col1{
+    width:39%;
+    background-image: url(../img/africa-home-block-1-t.webp);
+    background-repeat: no-repeat;height:635px;
+    background-size: contain;margin-left: 20px;
+    
+}
+.section4 .col1 h2{
+    color:white;text-align: center;
+    padding-top:50px;
+}
+.section4 .col2 .img1{width:95%;
+    background-image: url(../img/africa-home-block-2-t.webp);
+    background-size:cover;
+    height: 300px;
+}
+    
